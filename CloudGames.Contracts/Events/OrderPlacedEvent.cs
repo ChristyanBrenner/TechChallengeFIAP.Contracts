@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace CloudGames.Contracts.Events
 {
     public record OrderPlacedEvent(
-    int Id,
     int UserId,
     int GameId,
     string GameName,

@@ -4,6 +4,7 @@
     int UserId,
     int GameId,
     string GameName,
+    decimal GamePrice,
     PaymentStatus Status
 );
 
